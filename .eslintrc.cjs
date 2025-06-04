@@ -35,6 +35,9 @@ module.exports = {
         "plugin:react-hooks/recommended",
         "plugin:jsx-a11y/recommended",
       ],
+      rules: {
+        "react/no-unescaped-entities": "off",
+      },
       settings: {
         react: {
           version: "detect",
